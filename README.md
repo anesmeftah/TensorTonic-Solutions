@@ -1,10 +1,3 @@
-# anesmeftah's Solutions
-
-
-<p align="center">
-  <img src="https://www.tensortonic.com/api/badge/g4tm0n.svg" alt="TensorTonic Verified Solutions" width="100%" />
-</p>
-
 <!-- tensortonic:start -->
 # anesmeftah's TensorTonic Solutions
 
