@@ -13,7 +13,7 @@ def backprop(acts, targets, Ws):
     dWs = [None] * n
     dbs = [None] * n
     G = 2 * (acts[-1] - targets.reshape(-1, 1))
-    for l in reversed(range(n)):          # n-1, n-2, ..., 0
+    for l in reversed(range(n)):
         D = G * (1 - acts[l + 1] ** 2)
         dWs[l] = D.T @ acts[l]
         dbs[l] = D.sum(dim=0)
